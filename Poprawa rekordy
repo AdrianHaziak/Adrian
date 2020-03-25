@@ -1,0 +1,45 @@
+#include <iostream>
+#include <string.h>
+#include <cstdlib>
+
+using namespace std;
+
+struct gra {
+    string tytul;
+    string rodzaj;
+    int ocena;
+    int rokwydania;
+};
+
+
+
+int main()
+{
+    gra Fortnite; 
+
+    Fortnite.tytul= "Fortnite";
+    Fortnite.rodzaj= "Battle Royale";
+    Fortnite.ocena= 4;
+    Fortnite.rokwydania= 2018;
+
+    cout << "Tytul: " <<  Fortnite.tytul   << endl;
+	cout << "Rodzaj:  " << Fortnite.rodzaj << endl;
+	cout << "Ocena:  " << Fortnite.ocena << endl;
+	cout << "Rok wydania: " << Fortnite.rokwydania << endl;
+    
+cout<< "" << endl;
+
+	gra theForest;
+	
+	theForest.tytul= "The Forest";
+	theForest.rodzaj= "Survival";
+	theForest.ocena= 5;
+	theForest.rokwydania= 2017;
+	
+	cout << "Tytul: " << theForest.tytul << endl;
+	cout << "Rodzaj: " << theForest.rodzaj << endl;
+	cout << "Ocena: " << theForest.ocena << endl;
+	cout << "Rok wydania: " << theForest.rokwydania << endl;
+	return 0;
+};	
+	
